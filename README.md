@@ -1,0 +1,4 @@
+# React Native Inaccurate Screen Dimensions
+This repository demonstrates a common issue with obtaining accurate screen dimensions in React Native applications, specifically when using the `Dimensions.get('window')` API.  The issue arises from the fact that this method returns the dimensions of the application window, which can be smaller than the physical screen dimensions due to system UI elements such as notches, home bars, or software navigation buttons. 
+
+The `inaccurateDimensions.js` file shows how using `Dimensions.get('window')` can lead to incorrect dimension calculations. The `accurateDimensions.js` demonstrates a solution to obtain more reliable screen dimensions.
